@@ -2,6 +2,8 @@
 
 `devpi-server` is an efficient self-updating PyPI caching mirror.
 
+[![](https://images.microbadger.com/badges/image/goodtune/devpi-server.svg)](https://microbadger.com/images/goodtune/devpi-server "goodtune/devpi-server")
+
 # How to use this image
 
 ## Start an instance of devpi-server
