@@ -1,7 +1,7 @@
 FROM python:3
 MAINTAINER Gary Reynolds <gary@touch.asn.au>
 
-RUN pip install devpi-server
+RUN pip install --no-cache-dir devpi-server
 
 ENV DEVPI_SERVERDIR=/data
 WORKDIR /data
