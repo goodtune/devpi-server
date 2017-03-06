@@ -1,7 +1,8 @@
 FROM python:3
 MAINTAINER Gary Reynolds <gary@touch.asn.au>
 
-RUN pip install --no-cache-dir devpi-server
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 ENV DEVPI_SERVERDIR=/data
 WORKDIR /data
